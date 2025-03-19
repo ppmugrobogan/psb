@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <title>MANBA'UL 'ULUM</title>
+    <meta property="og:title" content="MANBA'UL 'ULUM TANGGUNGHARJO">
+    <meta property="og:description" content="Halaman informasi pendaftaran pondok pesantren manba'ul ulum tanggungharjo">
+    <meta property="og:image" content="https://santritanggung.000webhostapp.com/GAMBAR/sampul.jpg">
+    <meta property="og:url" content="https://santritanggung.000webhostapp.com">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="IKON/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="IKON/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="IKON/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="IKON/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="IKON/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="IKON/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="IKON/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="IKON/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="IKON/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="IKON/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="IKON/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="IKON/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="IKON/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+    <div class="container" onclick="myFunction(this);toggleNav()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+      </script>
+      <div id="mySidepanel" class="sidepanel">
+        <a href="index.html">Beranda</a>
+        <a href="DATA/profil_pp.html">Profil Pondok</a>
+        <a href="DATA/kurikulum_pp.html">Kurikulum Pondok</a>
+        <a href="DATA/profil_madin.html">Profil Madrasah</a>
+        <a href="DATA/kurikulum_madin.html">Kurikulum Madrasah</a>
+        <a href="DATA/profil_tpq.html">Profil TPQ</a>
+        <a href="#">Bahtsul Masail</a>
+        <a href="#">Kajian-kajian</a>
+        <a href="#">Halaman Wali Santri</a>
+        <a href="PSB/PSB.html">Pendaftaran Santri Baru</a>
+      </div>
+      <script>
+      var sidepanel = document.getElementById("mySidepanel");
+      function toggleNav() {
+        if (sidepanel.style.width === "200px") {
+          sidepanel.style.width = "0";
+        } else {
+          sidepanel.style.width = "200px";
+        }
+      }
+      function closeNav() {
+        sidepanel.style.width = "0";
+      }
+      </script>
+</head>
+<body>
+    <div class="head1">
+<img src="LOGO.png" alt="" class="logoppmu">
+    </div>
+    <a href="https://wa.me/6285182347947">
+      <img class="wa_media" src="/GAMBAR/WA.png" alt="Bantuan Media">
+  </a>
+    <div class="slideshow-container">
+  <div class="mySlides">
+    <img class="slideimg" src="GAMBAR/BENDERA.jpg" alt="Slide 1">
+  </div>
+
+  <div class="mySlides">
+    <img class="slideimg" src="GAMBAR/PENTASPA.jpg" alt="Slide 2">
+  </div>
+  
+  <div class="mySlides">
+    <img class="slideimg" src="GAMBAR/POLISI.jpg" alt="Slide 3">
+  </div>
+
+  
+</div>
+
+<script>
+  let slideIndex = 0;
+  showSlides();
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides() {
+    let i;
+    const slides = document.getElementsByClassName("mySlides");
+
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+
+    slideIndex++;
+
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+
+    // Set the timeout for the next slide after 5000 milliseconds (5 seconds)
+    setTimeout(showSlides, 5000);
+  }
+</script>
+      </div>
+      
+    <div>
+        <h1 class="judul1">INFORMASI PENDAFTARAN</h1>
+        <h1 class="judul1">PP. MANBA'UL 'ULUM</h1>
+        <P class="paragraf">Pondok pesantren Manba'ul Ulum adalah lembaga pendidikan yang bertujuan untuk mencetak generasi muda berakhlakul karimah yang menjalankan nilai-nilai agama islam berhaluan ahlussunnah waljama'ah,
+        karenanya dalam program pendidikan didesain untuk mendalami kitab-kitab salafi, selain itu juga terdapat pengajian Al -Qur'an dengan cara tahfidz serta qiro'ah.</p>
+    </div>
+<!-- Tombol gambar yang mengarah pada link -->
+<h1 class="judul">KONTEN TERBARU</h1>
+<div class="slideshow-container2">
+  <div class="mySlides2 fade2">
+    <div class="list">
+      <a href="https://youtube.com/playlist?list=PL4qXhhyxdbJvPbyWPnEbcUGEikApND0XW&si=ZxCqBgAZFP_1MWWE" class="KONTEN">
+        <img src="/GAMBAR/KONTEN/balagh.png" class="isi konten" alt="Icon">
+      </a>
+    </div>
+  </div>
+  
+  <div class="mySlides2 fade2">
+    <div class="list">
+      <a href="https://youtube.com/playlist?list=PL4qXhhyxdbJvPbyWPnEbcUGEikApND0XW&si=ZxCqBgAZFP_1MWWE" class="KONTEN">
+        <img src="/GAMBAR/KONTEN/balagh.png" class="isi konten" alt="Icon">
+      </a>
+    </div>
+  </div>
+  
+  <!-- Tombol geser maju dan mundur -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<br>
+
+<!-- Titik-titik -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
+<script>
+  var slideIndex2 = 0;
+
+  function showSlides2() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides2");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex2++;
+    if (slideIndex2 > slides.length) {slideIndex2 = 1}
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex2-1].style.display = "block";
+    dots[slideIndex2-1].className += " active";
+    setTimeout(showSlides2, 5000); // Change image every 5 seconds
+  }
+
+  function plusSlides(n) {
+    clearInterval(myTimer);
+    if (n < 0) {
+      showSlides2(slideIndex2 -= 1);
+    } else {
+      showSlides2(slideIndex2 += 1);
+    }
+    if (n === -1) {
+      myTimer = setInterval(function() {plusSlides(n + 2)}, 5000);
+    } else {
+      myTimer = setInterval(function() {plusSlides(n + 1)}, 5000);
+    }
+  }
+
+  function currentSlide(n) {
+    clearInterval(myTimer);
+    myTimer = setInterval(function() {plusSlides(n + 1)}, 5000);
+    showSlides2(slideIndex2 = n);
+  }
+
+  var myTimer = setInterval(function() {plusSlides(1)}, 5000);
+  showSlides2(slideIndex2);
+</script>
+<div class="chat-container">
+  <div class="chat-body" id="chatBody">
+    <div class="TABEL">
+      <table id="dataTable">
+        <tbody>
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+<script>
+  function isArabic(text) {
+    const arabicRegex = /[\u0600-\u06FF]/;
+    return arabicRegex.test(text);
+  }
+  const API_KEY = 'AIzaSyA8x0yI8zCPUgZktmGNvQVTzhm1fdZ0K74';
+  const SPREADSHEET_ID = '1UPHJ6PIzWWEuTydjPXUgd1gAFlwx94hRTqthcxqB7A4';
+  const RANGE = 'sheet1';
+
+  function processText(text) {
+    // Mengganti *...* dengan <span class="underline-text">...</span>
+    const processedText = text.replace(/\*(.*?)\*/g, '<span class="underline-text">$1</span>');
+    return processedText;
+  }
+
+  function processDataAndPopulateTable(data) {
+    const values = data.values;
+    const tableBody = document.querySelector('#dataTable tbody');
+    tableBody.innerHTML = '';
+
+    values.forEach(row => {
+      const newRow = tableBody.insertRow();
+      row.forEach(cellValue => {
+        const newCell = newRow.insertCell();
+        const isArabicText = isArabic(cellValue);
+
+        if (isArabicText) {
+          newCell.classList.add('rtl');
+        } else {
+          newCell.classList.add('indonesia');
+        }
+
+        // Ganti karakter baris baru (\n) menjadi tag HTML <br>
+        const newText = document.createElement('div');
+        newText.innerHTML = processText(cellValue).replace(/\n/g, '<br>');
+        newCell.appendChild(newText);
+      });
+    });
+  }
+  function getData() {
+    fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${RANGE}?key=${API_KEY}`)
+      .then(response => response.json())
+      .then(processDataAndPopulateTable)
+      .catch(error => console.error('Error fetching data:', error));
+  }
+  getData();
+</script>
+</div>
+<div class="chat-container1">
+<div id="popupFormContainer" class="chat-form-container">
+  <form name="chattdata" id="chatForm" class="chat-form" method="post" action="">
+    <textarea name="JUDUL" id="messageInput1" class="chat-input1" placeholder="Nama" required></textarea>
+    <textarea name="IBAROH" id="messageInput2" class="chat-input2" placeholder="Tinggalkan pesan anda di sini..." required></textarea>
+    <input class="kirim" type="submit" value="KIRIM">
+  </form>
+</div>
+
+<script>
+const pengeluaranForm = document.forms['chattdata'];
+const messageInput1 = document.getElementById('messageInput1');
+const messageInput2 = document.getElementById('messageInput2');
+const pengeluaranScriptURL = 'https://script.google.com/macros/s/AKfycbyB37CROw7UtUlQOMgDYTCpixGj2dWHyChKqziuoyslA123ifymeBpxw_zflJPEVHPT/exec';
+
+
+  // Reset form
+  pengeluaranForm.reset();
+
+
+pengeluaranForm.addEventListener('submit', e => {
+  e.preventDefault();
+  
+  const isArabic = /[\u0600-\u06FF]/.test(messageInput1.value);
+
+  if (isArabic) {
+    messageInput1.style.direction = 'rtl';
+  } else {
+    messageInput1.style.direction = 'ltr';
+  }
+
+  const formData = new FormData(pengeluaranForm);
+
+  formData.forEach((value, key, fd) => {
+    fd.set(key, value.replace(/<br>/g, '\n'));
+  });
+
+  fetch(pengeluaranScriptURL, {
+    method: 'POST',
+    body: formData,
+  })
+    .then(response => response.json())
+    .then(data => {
+      console.log('chatt Success!', data);
+      pengeluaranForm.reset();
+    })
+    .catch(error => console.error('chatt Error!', error.message));
+
+  // Setelah submit, sembunyikan pop-up
+  popupFormContainer.style.display = 'none';
+  // Reset form
+  pengeluaranForm.reset();
+});
+fetch(pengeluaranScriptURL, {
+method: 'POST',
+body: formData,
+})
+.then(response => response.json())
+.then(data => {
+  console.log('chatt Success!', data);
+  pengeluaranForm.reset();
+})
+.catch(error => console.error('chatt Error!', error.message));
+</script>
+</div>
+    <footer>
+        <div class="footer-content">
+            <img src="GAMBAR/kontak.png" class="kontak" alt="kontak">
+        </div>
+    </footer>
+    <div class="social-links">
+        <a href="https://web.facebook.com/ppmu.grobogan" target="_blank">
+            <img src="GAMBAR/fb.png" alt="Facebook Logo" class="social-logo">
+        </a>
+        <a href="https://www.youtube.com/@PPMUGrobogan" target="_blank">
+            <img src="GAMBAR/yt.png" alt="YouTube Logo" class="social-logo">
+        </a>
+        <a href="https://www.instagram.com/ppmu.grobogan" target="_blank">
+            <img src="GAMBAR/ig.png" alt="Instagram Logo" class="social-logo">
+        </a>
+        <a href="https://www.tiktok.com/@ppmu.grobogan" target="_blank">
+            <img src="GAMBAR/tiktok.png" alt="TikTok Logo" class="social-logo">
+        </a>
+    </div>
+    <a href="#" target="_blank">
+        <img src="GAMBAR/copyright.png" alt="TikTok Logo" class="copyright">
+    </a>
+    <script>
+       // Mendapatkan URL saat ini
+var url = window.location.href;
+
+// Menghapus query string dari URL
+url = url.split('?')[0];
+
+// Mengganti URL saat ini dengan URL tanpa query string
+window.history.replaceState({}, document.title, url);
+    </script>
+</body>
+</html>
